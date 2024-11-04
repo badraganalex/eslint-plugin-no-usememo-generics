@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-no-usememo-generics",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A custom ESLint plugin to prevent generics in useMemo function calls.",
   "main": "rule.js",
   "scripts": {
