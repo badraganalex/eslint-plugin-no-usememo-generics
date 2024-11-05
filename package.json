@@ -2,7 +2,7 @@
   "name": "eslint-plugin-no-usememo-generics",
   "version": "1.0.3",
   "description": "A custom ESLint plugin to prevent generics in useMemo function calls.",
-  "main": "rule.js",
+  "main": "plugin.js",
   "scripts": {
     "test": "node tests.js",
     "format": "prettier-eslint --write \"*.js\""
@@ -20,7 +20,7 @@
   "author": "badraganalex",
   "license": "ISC",
   "devDependencies": {
-    "@typescript-eslint/parser": "^8.12.2",
+    "@typescript-eslint/parser": ">=6.0.0",
     "@typescript-eslint/rule-tester": "^8.12.2",
     "node-test": "^1.4.6",
     "prettier-eslint-cli": "^8.0.1"
