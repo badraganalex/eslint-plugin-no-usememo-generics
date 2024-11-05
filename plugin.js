@@ -1,4 +1,4 @@
-import rule from "rule.js";
+import rule from "./rule.js";
 
 const plugin = { rules: { "enforce": rule } };
 
