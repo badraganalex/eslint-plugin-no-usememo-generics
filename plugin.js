@@ -1,5 +1,5 @@
 import rule from "rule.js";
 
-const plugin = { rules: { "no-usememo-generics": rule } };
+const plugin = { rules: { "enforce": rule } };
 
 export default plugin;
