@@ -4,8 +4,7 @@
   "description": "A custom ESLint plugin to prevent generics in useMemo function calls.",
   "main": "plugin.js",
   "scripts": {
-    "test": "node tests.js",
-    "format": "prettier-eslint --write \"*.js\""
+    "test": "node tests.js"
   },
   "type": "module",
   "keywords": [
@@ -20,15 +19,14 @@
   "author": "badraganalex",
   "license": "ISC",
   "devDependencies": {
-    "@typescript-eslint/parser": ">=6.0.0",
+    "@typescript-eslint/parser": "^8.0.0",
     "@typescript-eslint/rule-tester": "^8.12.2",
-    "node-test": "^1.4.6",
-    "prettier-eslint-cli": "^8.0.1"
+    "node-test": "^1.4.6"
   },
   "peerDependencies": {
-    "@typescript-eslint/parser": ">=6.0.0",
-    "eslint": ">=6.0.0",
-    "typescript": ">=4.0.0"
+    "@typescript-eslint/parser": "^8.0.0",
+    "eslint": "^9.0.0",
+    "typescript": "^5.0.0"
   },
   "homepage": "https://github.com/badraganalex/eslint-plugin-no-usememo-generics"
 }
